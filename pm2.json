@@ -1,0 +1,13 @@
+{
+    "apps": [
+      {
+        "name": "biobot_soporte",
+        "script": "./api.py",
+        "interpreter": "python3",
+        "env": {
+          "FLASK_ENV": "production",
+          "PORT": 3025
+        }
+      }
+    ]
+}
